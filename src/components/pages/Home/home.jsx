@@ -9,7 +9,7 @@ export default function Home() {
     <div>
          <Header></Header>
        <Navbar></Navbar>
-        <div>
+        <div  className=' flex justify-around'>
           <div>
             <Leftsidenav></Leftsidenav>
           </div>
