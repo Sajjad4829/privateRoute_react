@@ -8,7 +8,7 @@ export default function Header() {
        <div className=' flex flex-col items-center'>
         <img src={logo} alt="" />
         <h2>Journalism Without Fear or Favour</h2>
-        <p>{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
+        <p>{moment().format("dddd, MMMM D, YYYY")}</p>
        </div>
     </div>
   )
