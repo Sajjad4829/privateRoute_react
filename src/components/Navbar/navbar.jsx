@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import user from  '../../assets/user.png'
 export default function Navbar() {
 
@@ -19,7 +19,7 @@ export default function Navbar() {
  <div>
  <img src={user} alt=""  className=" w-10"/>
   </div> 
-   <button className=" py-2 px-10 bg-gray-700 rounded-sm text-white">Log in</button>
+   <Link className=" py-2 px-10 bg-gray-700 rounded-sm text-white" to='/login'>Log in</Link>
  </div>
 </div>
     </div>
